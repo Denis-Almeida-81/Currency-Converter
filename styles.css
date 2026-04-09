@@ -58,6 +58,7 @@ select {
     height: 48px;
     margin-bottom: 24px;
     padding-left: 18px;
+    cursor: pointer;
 }
 
 .input-currency {
@@ -70,6 +71,7 @@ select {
     height: 48px;
     margin-bottom: 24px;
     padding-left: 18px;
+    cursor: pointer;
 }
 
 button {
@@ -109,3 +111,7 @@ button:active {
     font-weight: 700;
     color: #555555;
 }
+.select-currency {
+    appearance: none;
+}
+
